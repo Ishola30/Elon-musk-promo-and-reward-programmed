@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elon musk promo and reward programmed</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  </style>
+</head>
+
+<body>
+
+<div class="sidebar">
+<h2>🎁 Rewards</h2>
+
+<a href="#">🏠 Dashboard</a>
+<a href="#">🎉 Promotions</a>
+<a href="#">💎 Rewards</a>
+<a href="#">👥 Referrals</a>
+<a href="#">📊 Reports</a>
+<a href="#">⚙ Settings</a>
+</div>
+
+<div class="main">
+
+<div class="topbar">
+<div>
+<h2>Promo & Rewards Dashboard</h2>
+<p>Welcome back, Micheal Tapner</p>
+</div>
+
+<div class="profile">
+<img src="https://i.pravatar.cc/100" alt="">
+</div>
+</div>
+
+<div class="cards">
+
+<div class="card balance">
+<h3>Reward Balance</h3>
+<h1>$70,000,000,.00</h1>
+<p>Available Points</p>
+</div>
+
+<div class="card">
+<h3>Active Promos</h3>
+<h1>8</h1>
+</div>
+
+<div class="card">
+<h3>Referrals</h3>
+<h1>37</h1>
+</div>
+
+<div class="card">
+<h3>Redeemed</h3>
+<h1>152</h1>
+</div>
+
+</div>
+
+.{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+display:flex;
+background:#0f172a;
+color:#fff;
+}
+
+.sidebar{
+width:240px;
+height:100vh;
+background:#111827;
+padding:25px;
+position:fixed;
+}
+
+.sidebar h2{
+margin-bottom:35px;
+color:#38bdf8;
+}
+
+.sidebar a{
+display:block;
+color:#cbd5e1;
+text-decoration:none;
+padding:12px;
+margin:8px 0;
+border-radius:10px;
+transition:.3s;
+}
+
+.sidebar a:hover{
+background:#1e293b;
+color:#38bdf8;
+}
+
+.main{
+margin-left:240px;
+width:100%;
+padding:25px;
+}
+
+.topbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:25px;
+}
+
+.profile img{
+width:55px;
+height:55px;
+border-radius:50%;
+border:3px solid #38bdf8;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:18px;
+box-shadow:0 8px 20px rgba(0,0,0,.35);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.balance{
+background:linear-gradient(135deg,#2563eb,#06b6d4);
+}
+
+.card h3{
+font-size:15px;
+color:#cbd5e1;
+margin-bottom:10px;
+}
+
+.card h1{
+font-size:34px;
+margin-bottom:8px;
+}
+
+.progress{
+margin-top:20px;
+background:#334155;
+height:10px;
+border-radius:20px;
+overflow:hidden;
+}
+
+.progress span{
+display:block;
+width:72%;
+height:100%;
+background:#22c55e;
+}
+  <div class="card" style="margin-top:25px;">
+<h3>Reward Progress</h3>
+<h1>72%</h1>
+<p>Only 2,800 points to reach <b>Platinum</b></p>
+
+<div class="progress">
+<span></span>
+</div>
+</div>
+
+<div class="cards" style="margin-top:25px;">
+
+<div class="card">
+<h3>🎁 Active Promotions</h3>
+<p>✔ Invite 3 friends → +2,000 Points</p>
+<p>✔ Weekend Cashback → 15%</p>
+<p>✔ Daily Login → +100 Points</p>
+</div>
+
+<div class="card">
+<h3>⚡ Quick Actions</h3>
+<button onclick="claim()">Claim Bonus</button><br><br>
+<button onclick="redeem()">Redeem Rewards</button><br><br>
+<button onclick="invite()">Invite Friends</button>
+</div>
+
+</div>
+
+<div class="card" style="margin-top:25px;">
+<h3>📋 Recent Reward Activity</h3>
+
+<table style="width:100%;margin-top:15px;border-collapse:collapse;">
+<tr style="background:#334155;">
+<th style="padding:10px;">Date</th>
+<th>Activity</th>
+<th>Points</th>
+</tr>
+
+<tr>
+<td style="padding:10px;">14 Jul</td>
+<td>Daily Login</td>
+<td style="color:#22c55e;">+100</td>
+</tr>
+
+<tr>
+<td style="padding:10px;">13 Jul</td>
+<td>Referral Bonus</td>
+<td style="color:#22c55e;">+500</td>
+</tr>
+
+<tr>
+<td style="padding:10px;">12 Jul</td>
+<td>Gift Card Redeemed</td>
+<td style="color:#ef4444;">-1500</td>
+</tr>
+
+<tr>
+<td style="padding:10px;">11 Jul</td>
+<td>Shopping Cashback</td>
+<td style="color:#22c55e;">+850</td>
+</tr>
+
+</table>
+</div>
+
+<div class="card" style="margin-top:25px;">
+<h3>🔔 Notifications</h3>
+<p>🎉 New Summer Rewards Campaign is now live.</p>
+<p>⭐ You're only 2,800 points away from Platinum.</p>
+<p>🎁 Claim your daily reward before midnight.</p>
+</div>
+
+<style>
+button{
+width:100%;
+padding:12px;
+border:none;
+border-radius:10px;
+background:#0ea5e9;
+color:#fff;
+font-size:15px;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+}
+button:hover{
+background:#0284c7;
+transform:scale(1.03);
+}
+table tr:nth-child(even){
+background:#1f2937;
+}
+table td,table th{
+padding:12px;
+text-align:left;
+}
+</style>
+
+<script>
+function claim(){
+alert("🎉 Daily bonus claimed successfully!");
+}
+
+function redeem(){
+alert("✅ Reward redemption request submitted.");
+}
+
+function invite(){
+alert("📨 Your referral link has been generated.");
+}
+
+const cards=document.querySelectorAll(".card");
+cards.forEach((card,i)=>{
+card.style.opacity="0";
+card.style.transform="translateY(20px)";
+setTimeout(()=>{
+card.style.transition=".5s";
+card.style.opacity="1";
+card.style.transform="translateY(0)";
+},i*120);
+});
+</script>
+
+</div>
+
+</body>
+</html>
+  

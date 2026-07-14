@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elon musk promo and reward programmed</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0f172a;color:#fff}
+.top{display:flex;justify-content:space-between;align-items:center;padding:18px 25px;background:#111827}
+.logo{font-size:22px;font-weight:bold;color:#38bdf8}
+.user{display:flex;align-items:center;gap:10px}
+.avatar{
+width:45px;
+height:45px;
+border-radius:50%;
+background:linear-gradient(135deg,#3b82f6,#06b6d4);
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+}
+.main{padding:20px}
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:15px;
+margin-bottom:20px;
+}
+.card{
+background:#1e293b;
+padding:18px;
+border-radius:14px;
+box-shadow:0 6px 15px rgba(0,0,0,.3);
+transition:.3s;
+}
+.card:hover{transform:translateY(-5px)}
+.balance{
+background:linear-gradient(135deg,#2563eb,#06b6d4);
+}
+.card h4{color:#cbd5e1;margin-bottom:8px}
+.card h2{font-size:28px}
+.grid{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:15px;
+}
+.panel{
+background:#1e293b;
+padding:18px;
+border-radius:14px;
+}
+.progress{
+height:10px;
+background:#334155;
+border-radius:10px;
+overflow:hidden;
+margin:12px 0;
+}
+.bar{
+height:100%;
+width:72%;
+background:#22c55e;
+}
+.btn{
+width:100%;
+padding:11px;
+margin-top:10px;
+border:none;
+border-radius:8px;
+background:#0ea5e9;
+color:#fff;
+cursor:pointer;
+font-weight:bold;
+}
+.btn:hover{
+background:#0284c7;
+}
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:12px;
+}
+th,td{
+padding:10px;
+text-align:left;
+border-bottom:1px solid #334155;
+}
+th{
+color:#38bdf8;
+}
+.note{
+background:#0f2438;
+padding:10px;
+border-radius:8px;
+margin:10px 0;
+}
+@media(max-width:800px){
+.grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+<div class="logo">🎁 Promo Rewards</div>
+
+<div class="user">
+<div>
+<b>Micheal Tapner</b><br>
+<small>Gold Member</small>
+</div>
+<div class="avatar">MP</div>
+</div>
+</div>
+
+<div class="main">
+
+<div class="cards">
+
+<div class="card balance">
+<h4>Reward Balance</h4>
+<h2>$70,000,000.00</h2>
+<p>Available Points</p>
+</div>
+
+<div class="card">
+<h4>Referrals</h4>
+<h2>37</h2>
+<p>Successful Invites</p>
+</div>
+
+<div class="card">
+<h4>Redeemed</h4>
+<h2>152</h2>
+<p>Total Rewards</p>
+</div>
+
+<div class="card">
+<h4>Promotions</h4>
+<h2>8</h2>
+<p>Active Offers</p>
+</div>
+
+</div>
+
+<div class="grid">
+
+<div class="panel">
+
+<h3>Reward Progress</h3>
+
+<div class="progress">
+<div class="bar"></div>
+</div>
+
+<p>72% complete — 2,800 points until Platinum.</p>
+
+<button class="btn" onclick="claim()">Claim Daily Bonus</button>
+
+<button class="btn" onclick="redeem()">Redeem Rewards</button>
+
+<h3 style="margin-top:20px;">Recent Activity</h3>
+
+<table>
+<tr>
+<th>Date</th>
+<th>Activity</th>
+<th>Points</th>
+</tr>
+<tr>
+<td>14 Jul</td>
+<td>Daily Login</td>
+<td style="color:#22c55e;">+100</td>
+</tr>
+
+<tr>
+<td>13 Jul</td>
+<td>Referral Bonus</td>
+<td style="color:#22c55e;">+500</td>
+</tr>
+
+<tr>
+<td>12 Jul</td>
+<td>Gift Card Redeemed</td>
+<td style="color:#ef4444;">-1500</td>
+</tr>
+
+<tr>
+<td>11 Jul</td>
+<td>Cashback Reward</td>
+<td style="color:#22c55e;">+850</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="panel">
+
+<h3>🔥 Active Promotions</h3>
+
+<div class="note">
+🎁 Invite 3 friends and earn <b>2,000 Bonus Points</b>.
+</div>
+
+<div class="note">
+💳 Spend $100 to receive <b>10% Cashback</b>.
+</div>
+
+<div class="note">
+⭐ Daily Login rewards are available every 24 hours.
+</div>
+
+<h3 style="margin-top:20px;">Quick Stats</h3>
+
+<p>Total Lifetime Points</p>
+<h2>86,250</h2>
+
+<p style="margin-top:15px;">Membership</p>
+<h2 style="color:#facc15;">Gold ★</h2>
+
+<button class="btn" onclick="invite()">
+Invite Friends
+</button>
+
+</div>
+
+</div>
+
+<p style="text-align:center;margin:25px;color:#94a3b8;">
+© 2026 Promo Rewards Dashboard
+</p>
+
+</div>
+
+<script>
+function claim(){
+alert("🎉 Daily bonus claimed successfully!");
+}
+
+function redeem(){
+alert("✅ Reward redemption request submitted.");
+}
+
+function invite(){
+alert("📨 Referral link copied successfully!");
+}
+
+document.querySelectorAll(".card,.panel").forEach((e,i)=>{
+e.style.opacity="0";
+e.style.transform="translateY(20px)";
+setTimeout(()=>{
+e.style.transition=".5s";
+e.style.opacity="1";
+e.style.transform="translateY(0)";
+},i*120);
+});
+</script>
+
+</body>
+</html>
+
+
+
